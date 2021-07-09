@@ -82,8 +82,8 @@ module.exports = function(api, opts, env) {
           targets: {
             ie: 9,
           },
-          corejs: 3,
           useBuiltIns: "usage",
+          corejs: 3,
           exclude: ['transform-typeof-symbol'],
         },
       ],
